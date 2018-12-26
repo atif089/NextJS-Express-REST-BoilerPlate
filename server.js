@@ -3,7 +3,6 @@
 // See https://github.com/zeit/next.js/issues/1245 for discussions on Universal Webpack or universal Babel
 const next = require('next');
 const express = require('express');
-const { parse } = require('url');
 
 const dev = process.env.NODE_ENV !== 'production';
 const port = process.env.PORT || 5000;
