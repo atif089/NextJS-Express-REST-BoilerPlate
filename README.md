@@ -1,6 +1,6 @@
 ## Next.JS Custom Server
 
-Next.JS Custom Server Boilerplate with support for non rendering endpoints
+Next.JS Custom Server Boilerplate with support for non rendering / REST endpoints.
 
 Integrated with
 
