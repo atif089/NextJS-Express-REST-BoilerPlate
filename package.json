@@ -10,9 +10,11 @@
     "analyze": "cross-env ANALYZE=1 next build"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
     "next": "^8.0.1",
+    "node-sass": "^4.11.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "webpack-bundle-analyzer": "^3.0.4"
