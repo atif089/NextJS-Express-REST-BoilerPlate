@@ -3,6 +3,7 @@
 // See https://github.com/zeit/next.js/issues/1245 for discussions on Universal Webpack or universal Babel
 const next = require('next');
 const express = require('express');
+const path = require('path');
 
 const dev = process.env.NODE_ENV !== 'production';
 const port = process.env.PORT || 5000;
@@ -14,10 +15,13 @@ app
   .then(() => {
     const server = express();
 
+    // Static Files
+    server.use('/img', express.static(path.join(__dirname, 'img')));
+
     // API routes
     server.use('/', require('./routes/api'));
 
-    // routing for assets
+    // Routing for Components
     server.get('*', (req, res) => {
       handle(req, res, req.url);
     });
