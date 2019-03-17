@@ -1,7 +1,7 @@
 {
-  "name": "next.js-custom-server",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "nextjs-express-rest-boilerPlate",
+  "version": "1.0.1",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
     "dev": "node server.js",
