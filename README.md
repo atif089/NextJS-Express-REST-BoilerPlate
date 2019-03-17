@@ -6,3 +6,4 @@ Integrated with
 
   * eslint (airbnb)
   * webpack analyzer
+  * scss
